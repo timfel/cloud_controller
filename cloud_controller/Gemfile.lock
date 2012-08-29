@@ -1,9 +1,9 @@
 GIT
   remote: ../../staging
-  revision: 6b3fcc382637f9a5115097700427623d03e55665
+  revision: 01dd0d831da4cd2ad316865e736fb2b97f5b5971
   ref: perl
   specs:
-    vcap_staging (0.1.62)
+    vcap_staging (0.1.62.perl.1)
       nokogiri (>= 1.4.4)
       rake
       rspec
