@@ -12,3 +12,4 @@ ci-working-dir
 *.swp
 .rvmrc
 *.pid
+cloud_controller/vendor/cache/
