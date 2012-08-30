@@ -1,4 +1,16 @@
 GIT
+  remote: ../../staging
+  revision: 4eee61513b391bb469dcd7af030e6812f88e1295
+  ref: aida
+  specs:
+    vcap_staging (0.1.62.aida.2)
+      nokogiri (>= 1.4.4)
+      rake
+      rspec
+      uuidtools (~> 2.1.2)
+      yajl-ruby (>= 0.7.9)
+
+GIT
   remote: https://github.com/cloudfoundry/common.git
   revision: e36886a189b82f880a5aa3e9169712d5d9048a88
   ref: e36886a1
@@ -51,18 +63,6 @@ GIT
       posix-spawn (~> 0.3.6)
       thin
       yajl-ruby (~> 0.8.3)
-
-GIT
-  remote: https://github.com/cloudfoundry/vcap-staging.git
-  revision: 8d9da6cd9bb641225a12fcbcbf7a1db9ab06e844
-  ref: 8d9da6cd
-  specs:
-    vcap_staging (0.1.62)
-      nokogiri (>= 1.4.4)
-      rake
-      rspec
-      uuidtools (~> 2.1.2)
-      yajl-ruby (>= 0.7.9)
 
 GEM
   remote: http://rubygems.org/
@@ -233,5 +233,5 @@ DEPENDENCIES
   uuidtools (~> 2.1.2)
   vcap_common!
   vcap_logging!
-  vcap_staging (~> 0.1.62)!
+  vcap_staging!
   yajl-ruby (~> 0.8.3)
